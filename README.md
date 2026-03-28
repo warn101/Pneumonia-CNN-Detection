@@ -19,10 +19,8 @@ A deep learning project that classifies chest X-ray images as **NORMAL** or **PN
 
 ## Dataset
 
-**Chest X-Ray Images (Pneumonia)** — Kaggle  
-Source: [kaggle.com/paultimothymooney/chest-xray-pneumonia](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+**Chest X-Ray Images (Pneumonia)** 
 
-Pediatric chest X-rays collected at Guangzhou Women and Children's Medical Centre.
 
 ```
 dataset/
@@ -188,4 +186,12 @@ pneumonia-detection-cnn/
 - How EarlyStopping, ModelCheckpoint, and ReduceLROnPlateau work together during training
 
 ---
+## Saved Model
+
+The trained weights are not stored in this repo due to file size (~100MB).
+
+To reproduce them, run all cells in `notebooks/pneumonia_cnn.ipynb`.
+Training takes approximately 30 minutes on a GPU (Google Colab recommended).
+The best weights will be saved automatically to `/content/saved_models/custom_cnn_best.keras`
+by the ModelCheckpoint callback during training.
 .
