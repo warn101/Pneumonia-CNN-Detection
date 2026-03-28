@@ -152,17 +152,11 @@ Actual PNEUMO    32       358    ← 32 missed cases
 
 ```
 pneumonia-detection-cnn/
-│
 ├── notebooks/
-│   └── pneumonia_cnn.ipynb       # full notebook (all 15 cells)
-│
-├── saved_models/
-│   └── custom_cnn_best.keras     # best model weights (epoch 9)
-│
+│   └── pneumonia_cnn.ipynb
 ├── outputs/
-│   ├── confusion_matrix.png      # confusion matrix heatmap
-│   └── training_curves.png       # loss and accuracy plots
-│
+│   ├── confusion_matrix.png
+│   └── training_curves.png
 └── README.md
 ```
 
