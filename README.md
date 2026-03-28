@@ -153,7 +153,7 @@ Actual PNEUMO    32       358    ← 32 missed cases
 ```
 pneumonia-detection-cnn/
 ├── notebooks/
-│   └── pneumonia_cnn.ipynb
+│   └──Problem_Set_01_CNN(1).ipynb
 ├── outputs/
 │   ├── confusion_matrix.png
 │   └── training_curves.png
